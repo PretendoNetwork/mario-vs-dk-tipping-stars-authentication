@@ -41,7 +41,7 @@ func main() {
 	secureStationURL.SetType("2")
 
 	authenticationProtocol.SetSecureStationURL(secureStationURL)
-	authenticationProtocol.SetBuildName("Pretendo Friends Auth")
+	authenticationProtocol.SetBuildName("Pretendo Mario vs. DK: TS Auth")
 	authenticationProtocol.SetPasswordFromPIDFunction(passwordFromPID)
 
 	nexServer.Listen(":60040")
